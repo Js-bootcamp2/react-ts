@@ -4,6 +4,7 @@ import './App.css';
 import Button from './components/Button';
 import Header from './components/Header';
 import {Fruit} from './types/fruit';
+import QuestionForm from './components/QuestionForm';
 
 const fruits: Fruit[] = [
   {
@@ -30,8 +31,9 @@ function App() {
   }
   return (
     <div className="App">
-      <Header fruits={fruits} show={true}/>
-      <Button onClick={handleClick}>Button name</Button>
+      <QuestionForm />
+      {/* <Header fruits={fruits} show={true}/>
+      <Button onClick={handleClick}>Button name</Button> */}
     </div>
   );
 }

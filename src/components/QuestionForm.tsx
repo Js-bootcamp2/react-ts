@@ -13,7 +13,7 @@ type TAnswer = {
 
 type TQuestion = {
   id: number | null;
-  qName: string;
+  qName: string;  
   aName: string;
   answers?: TAnswer[]
 };
